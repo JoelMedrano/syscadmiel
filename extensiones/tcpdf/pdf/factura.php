@@ -63,7 +63,7 @@ $bloque1 = <<<EOF
 		
 		<tr>
 			
-			<td style="width:150px"><img src="images/logo-negro-bloque.png"></td>
+			<td style="width:150px"><img src="images/logo1.jpg"></td>
 
 			<td style="background-color:white; width:140px">
 				
@@ -292,7 +292,7 @@ $pdf->writeHTML($bloque5, false, false, false, false, '');
 // ---------------------------------------------------------
 //SALIDA DEL ARCHIVO 
 
-$pdf->Output('factura.pdf');
+$pdf->Output('factura.pdf','I');
 
 }
 
